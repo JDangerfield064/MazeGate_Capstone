@@ -1,4 +1,3 @@
-// lib/main.dart
 import 'package:flutter/material.dart';
 import 'screens/home_dashboard.dart';
 import 'theme/app_colors.dart';
@@ -23,4 +22,5 @@ class MazeGateApp extends StatelessWidget {
       home: const HomeDashboard(),
     );
   }
+
 }
