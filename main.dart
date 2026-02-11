@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'screens/home_dashboard.dart';
 import 'theme/app_colors.dart';
+import 'screens/main_navigation.dart';
 void main() {
   runApp(const MazeGateApp());
 }
@@ -19,8 +19,7 @@ class MazeGateApp extends StatelessWidget {
           iconTheme: IconThemeData(color: AppColors.primary),
         ),
       ),
-      home: const HomeDashboard(),
+      home: const MainNavigation(),
     );
   }
-
 }
